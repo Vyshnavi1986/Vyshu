@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.top-section h1 {
+    color: #333;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trivia-section {
+    margin-top: 20px;
+}
+
+.trivia-section h2 {
+    color: #333;
+}
+
+.trivia-section ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.trivia-section li {
+    margin-bottom: 10px;
+}
