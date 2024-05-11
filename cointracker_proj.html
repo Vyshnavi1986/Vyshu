@@ -32,8 +32,9 @@
     <table id="cryptoTable">
         <thead>
             <tr>
-                <th>Rank</th>
                 <th>Name</th>
+                <th>id</th>
+                <th>image</th>
                 <th>Symbol</th>
                 <th>Current Price</th>
                 <th>Total Volume</th>
@@ -61,8 +62,9 @@
             tableBody.innerHTML = '';
             cryptoData.forEach((crypto, index) => {
                 const row = `<tr>
-                                <td>${index + 1}</td>
                                 <td>${crypto.name}</td>
+                                <td>${crypto.id}</td>
+                                <td><img src=${crypto.image}></img></td>
                                 <td>${crypto.symbol}</td>
                                 <td>${crypto.current_price}</td>
                                 <td>${crypto.total_volume}</td>
